@@ -20,6 +20,7 @@ public class CourseMapperTest {
         courseEntity.setName("Engenharia de Software");
         courseEntity.setCode("ES-01");
 
+
         CourseDTO resultDTO = CourseMapper.toDTO(courseEntity);
 
         assertNotNull(resultDTO);
